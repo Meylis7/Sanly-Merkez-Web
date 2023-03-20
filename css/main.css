@@ -864,13 +864,14 @@ header .btn {
 
   .four-pro-img,
   .trd-pro-img {
-    height: 300px;
+    height: 250px;
   }
 
-  /* 
+  
   .footer {
-    padding: 0 20px;
-  } */
+    padding: 50px 20px 0;
+    margin-top: 20px;
+  }
 
   .tabs__name {
     font-size: 18px;
