@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sanly merkez</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>San</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!-- <script src="./js/nav.js"></script> -->
+    <script>
+        const navSlide = () => {
+    const burger = document.querySelector('.burger')
+    const nav = document.querySelector('.nav-links')
+
+    burger.addEventListener('click',()=>{
+        nav.classList.toggle('nav-active');
+    });
+}
+navSlide();
+    </script>
+</body>
+</html>
