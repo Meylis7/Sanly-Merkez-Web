@@ -238,7 +238,7 @@ header .btn {
 }
 
 .about-text-container {
-  text-align: center;
+  text-align: justify;
   width: calc(60% - 20px);
 }
 
